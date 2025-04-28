@@ -27,12 +27,6 @@ mcp = FastMCP(
     # Obsidian MCP Server
 
     このサーバーは、Obsidian Local REST API と通信するためのツールを提供します。
-
-    ## 利用可能なツール
-
-    - **get_status**: サーバーステータスの取得
-    - **get_active_note**: 現在アクティブなノートの取得
-    - **update_file**: 指定したファイルの内容を更新（または新規作成）
     """,
     dependencies=[
         'httpx',
